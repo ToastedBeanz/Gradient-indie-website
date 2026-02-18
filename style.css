@@ -43,14 +43,14 @@ body {
 }
 
 header {
-    background-image: url(img/HEA-bg.png);
+    background-image: url(HEA-bg.png);
     background-size: cover;
     background-color: var(--secondary-color);
     background-repeat: no-repeat;
     background-position: 50% 0%;
     padding: 2em;
     padding-bottom: 4em;
-    border-bottom: #0000003a 40px ridge;
+    border-bottom: #0000003a 4px solid;
 }
 header h1 {
     margin: 0;
@@ -451,4 +451,5 @@ footer p {
 @keyframes scroll-left {
     0% { transform: translateX(0); }
     100% { transform: translateX(calc(-1 * var(--scroll-width))); }
+
 }
