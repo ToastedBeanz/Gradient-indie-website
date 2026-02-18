@@ -10,4 +10,4 @@ Bugs:
 - images still aren't loading
 
 Fixes / updates:
-redone header bottom border
+- redone header bottom border
