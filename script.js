@@ -47,18 +47,6 @@ document.addEventListener('DOMContentLoaded', () => {
             description: 'Handles core systems, build pipelines, and release management.',
             extra: 'Loves optimization and tooling.',
             priority: true
-        },
-        {
-            name: "Lorem I'sum",
-            role: 'UI/UX Designer',
-            img: 'img/heade-bg.png',
-            age: '15',
-            dob: '2010-05-14',
-            joined: '2025-03-10',
-            tags: 'UI,UX,Design',
-            description: 'Designs user interfaces and improves user experience across our platforms.',
-            extra: 'Enjoys creating intuitive designs.',
-            priority: false
         }
     ];
 
@@ -258,4 +246,5 @@ document.addEventListener('DOMContentLoaded', () => {
             closeModal();
         }
     });
+
 });
